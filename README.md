@@ -86,3 +86,49 @@ ESP32
 ├── Switches: 0 / 2 / 15 / 4 / 14 / 36
 ├── OLED SSD1306: 21 (SDA) + 22 (SCL)
 └── nRF24L01: 17 / 5 / 18 / 23 / 19
+
+---
+
+## 🚀 Getting Started
+
+1. Install ESP32 boards in Arduino IDE  
+2. Install required libraries  
+3. Flash `esp32-radio-controller.ino`  
+4. Power via USB or LiPo + regulator  
+5. The OLED boots into the splash screen  
+6. Rotate **Encoder #1** to navigate views  
+7. Press SW on Encoder #1 to go back to view #1
+
+---
+
+## 🧩 Folder Structure
+
+esp32-radio-controller/
+├── src/
+│ └── esp32-radio-controller.ino
+├── README.md
+├── LICENSE
+└── docs/
+└── wiring-diagram.png
+
+
+---
+
+## 📜 License — Unlicense
+
+This project is **public domain**.  
+You may freely use, modify, distribute, sell, or include this work in any project without restriction.
+
+See: https://unlicense.org/
+
+---
+
+## 🗺 Roadmap
+
+- [ ] Add calibration menu  
+- [ ] Add battery voltage monitoring  
+- [ ] Add failsafe / watchdog  
+- [ ] Add configurable center/limits per axis  
+- [ ] Add telemetry return via nRF24  
+- [ ] Add storage in NVS  
+
