@@ -1,6 +1,4 @@
-# esp32-radio-controller
-esp32 radio controller
-# ESP32 Radio Controller v1.0
+# ESP32 Radio Controller
 
 An open-hardware, open-firmware **ESP32-based Radio Controller** featuring:
 - dual joysticks (4 analog axes)
